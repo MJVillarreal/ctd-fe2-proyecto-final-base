@@ -8,14 +8,14 @@ export interface Suscription{
 }
 
 
-const subscribeButton:React.FC<Suscription> = ({setModal}) => {
+const SusButton:React.FC<Suscription> = ({setModal}) => {
   
   return (
     <>
     <BotonSuscribir
     onClick={() =>
       setTimeout(() => {
-        alert("Ahora estás suscripto a nuestro newsletter!");
+        alert("Suscripto!");
         setModal(null);
       }, 1000)
     }
@@ -25,4 +25,4 @@ const subscribeButton:React.FC<Suscription> = ({setModal}) => {
   </>
   );
 }
-export default subscribeButton;
+export default SusButton;

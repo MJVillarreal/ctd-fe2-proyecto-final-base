@@ -83,3 +83,5 @@ const Noticias = () => {
 };
 
 export default Noticias;
+
+//Para que el componente Noticias no tenga que hacer cosas que no le corresponden se aplicó el primer principio SOLID (Principio de Responsabilidad Única) 
